@@ -7,17 +7,23 @@
     padding: 50px 0px;
 }
 
+.container_with_products{
+    display: grid;
+    grid-template-columns: 900px;
+}
+
 .product_container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(248, 46, 46);
     border: 10px solid rgb(248, 46, 46);
-    border-radius: 30px;    
+    border-radius: 20px 100px;    
     transition: 0.5s;
     cursor: pointer;
     overflow: hidden;
-    
+    margin: 30px;
 }
 
 .product_container:hover{
@@ -40,14 +46,17 @@
 .product_name{
     color: black;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     margin: auto;
+    text-align: center;
 }
 
 .product_price{
     color: black;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 55px;
+    margin: 0;
+    text-align: center;
 }
 
 

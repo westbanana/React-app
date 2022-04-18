@@ -1,14 +1,11 @@
-import React from "react";
-import ProductContainer from "./ProductContainer";
-import classes from "./MainStyles.css"
+import React from 'react';
+import ProductContainer from './ProductContainer';
+import './MainStyles.css';
 
-
-const MainContainer = () => {
-    return (
-        <div className="main_container">
-            <ProductContainer />
-        </div>
-    )
-}
+const MainContainer = () => (
+  <div className="main_container">
+    <ProductContainer />
+  </div>
+);
 
 export default MainContainer;

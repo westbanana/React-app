@@ -1,31 +1,28 @@
-import react from "react";
+import react from 'react';
 
-const Windows = () => {
-    
+const Windows = () =>
 // const descriptions = [
 //     {
-//         name:'contacts', 
+//         name:'contacts',
 //         description: "This description for contacts window"
 //     },
 //     {
-//         name:'about_us', 
+//         name:'about_us',
 //         description: "This description for contacts window"
 //     },
 //     {
-//         name:'support', 
+//         name:'support',
 //         description: "This description for contacts window"
 //     }
 // ]
 
-return(
+  (
     <div>
-        <h1>
-
-        </h1>
-        <p>
-            {props.description}
-        </p>
-    </div>)
-}
+      <h1 />
+      <p>
+        {props.description}
+      </p>
+    </div>
+  );
 
 export default Windows;
