@@ -2,15 +2,16 @@ import React from 'react';
 import HeaderButtons from './HeaderButtons';
 import HeaderBacketButton from './HeaderBacketbutton';
 import HeaderLogo from './HeaderLogo';
+import './ButtonsGoToHeader';
 import './HeaderStyles.css';
 
 const Header = () => {
   const showAboutUs = (param) => {
-    alert(param);
+    console.log(param);
   };
 
   return (
-    <div className="header_container">
+    <div className="header_container" id="main_header">
       <HeaderLogo />
       <HeaderButtons name="Contacts" onClick={showAboutUs} />
       <HeaderButtons name="About Us" onClick={showAboutUs} />

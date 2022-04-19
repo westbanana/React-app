@@ -49,3 +49,36 @@
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(255, 0, 0) 0px 0px 100px 10px;
 }
+
+.button_up{
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    background-color: rgb(248, 46, 46);
+    border-radius: 50%;
+    left: 90%;
+    top: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.arrow{
+    border-radius: 50%;
+    color: white;
+    margin: 0;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.button_up:hover{
+    background-color: white;
+    box-shadow: rgb(255, 0, 0) 0px 0px 100px 10px;
+}
+
+.button_up:hover .arrow {
+    color: black;
+}

@@ -25,8 +25,8 @@ module.exports = {
         "react/state-in-constructor": "off",
         "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
         "react/prop-types": "off",
-        "global-require": 0
-        
+        "global-require": 0,
+        "linebreak-style": 0,
     },
     "ignorePatterns": [
         ".eslintrc.js"
