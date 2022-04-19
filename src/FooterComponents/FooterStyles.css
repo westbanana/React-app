@@ -1,6 +1,6 @@
 .footer_container{
     margin: 0;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .powered_p{
@@ -8,4 +8,13 @@
     margin: 0;
     color: rgb(72, 72, 72);
     padding-bottom: 20px;
+}
+
+.video_smoke{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    z-index: -1;
+    filter: contrast(2);
 }
