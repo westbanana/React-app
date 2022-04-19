@@ -6,7 +6,7 @@ const HeaderButtons = ({ name, onClick }) => {
   };
 
   return (
-    <button className="header_buttons" onClick={showPage}>
+    <button type="button" className="header_buttons" onClick={showPage}>
       {name}
     </button>
   );

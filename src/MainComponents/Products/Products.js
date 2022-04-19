@@ -18,6 +18,66 @@ const products = [
     price: '1200',
     image: macbook,
   },
+  {
+    name: 'Iphone 13 Pro',
+    price: '1000',
+    image: iphone,
+  },
+  {
+    name: 'Ipad Pro',
+    price: '1100',
+    image: ipad,
+  },
+  {
+    name: 'Macbook Pro',
+    price: '1200',
+    image: macbook,
+  },
+  {
+    name: 'Iphone 13 Pro',
+    price: '1000',
+    image: iphone,
+  },
+  {
+    name: 'Ipad Pro',
+    price: '1100',
+    image: ipad,
+  },
+  {
+    name: 'Macbook Pro',
+    price: '1200',
+    image: macbook,
+  },
+  {
+    name: 'Iphone 13 Pro',
+    price: '1000',
+    image: iphone,
+  },
+  {
+    name: 'Ipad Pro',
+    price: '1100',
+    image: ipad,
+  },
+  {
+    name: 'Macbook Pro',
+    price: '1200',
+    image: macbook,
+  },
+  {
+    name: 'Iphone 13 Pro',
+    price: '1000',
+    image: iphone,
+  },
+  {
+    name: 'Ipad Pro',
+    price: '1100',
+    image: ipad,
+  },
+  {
+    name: 'Macbook Pro',
+    price: '1200',
+    image: macbook,
+  },
 
 ];
 

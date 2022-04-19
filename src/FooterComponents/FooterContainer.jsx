@@ -1,16 +1,11 @@
 import React from 'react';
+import './FooterStyles.css';
 
 const FooterContainer = () => (
   <div className="footer_container">
-    <ul>
-      <li>
-        +380978994874
-      </li>
-      <li>
-        +380979999999
-      </li>
-    </ul>
+    <p className="powered_p">
+      Powered by Пузатый
+    </p>
   </div>
 );
-
 export default FooterContainer;
