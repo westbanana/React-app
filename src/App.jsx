@@ -10,7 +10,6 @@ const App = () => (
   <>
     <ShowVideo />
     <ButtonsGoToHeader />
-    {/* <video src={VideoSmoke} autoPlay className="video"></video> */}
     <Header />
     <MainContainer />
     <FooterContainer />

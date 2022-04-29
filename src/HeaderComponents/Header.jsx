@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import HeaderButtons from './HeaderButtons';
 import HeaderBacketButton from './HeaderBacketbutton';
 import HeaderLogo from './HeaderLogo';
 import './ButtonsGoToHeader';
 import './HeaderStyles.css';
+import Modals from './Modals/Modals';
+import './Modals/Modals.css';
 
 const Header = () => {
+  const [modalActive, setModalActive] = useState(false);
   const showAboutUs = (param) => {
     console.log(param);
+  };
+  const showBacketModal = () => {
+    setModalActive(true);
   };
 
   return (
@@ -16,7 +22,8 @@ const Header = () => {
       <HeaderButtons name="Contacts" onClick={showAboutUs} />
       <HeaderButtons name="About Us" onClick={showAboutUs} />
       <HeaderButtons name="Support" onClick={showAboutUs} />
-      <HeaderBacketButton />
+      <HeaderBacketButton onClick={showBacketModal} />
+      <Modals active={modalActive} setActive={setModalActive} />
     </div>
   );
 };

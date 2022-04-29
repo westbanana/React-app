@@ -4,7 +4,7 @@ import './Header';
 
 const ButtonsGoToHeader = () => (
   <div>
-    <a href="#main_header" className="button_up">
+    <a href="#spy_p" className="button_up">
       <p className="arrow">
         ↑
       </p>

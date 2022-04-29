@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeaderButtons = ({ name, onClick }) => {
   const showPage = () => {
-    onClick(name);
+    onClick(true);
   };
 
   return (

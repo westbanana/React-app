@@ -1,10 +1,20 @@
 .header_container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 200px;
-    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.503);
     padding: 0px 15px;
+    position: fixed;
+    z-index: 998;
+    width: 100vw;
+    padding-top: 30px;
+}
+
+.when_header_fixed{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    opacity: 0%;
 }
 
 .header_buttons{
@@ -16,8 +26,6 @@
     font-size: 15px;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: inset rgb(0, 0, 0) 0px 0px 10px;
-    box-shadow: rgb(255, 0, 0) 0px 0px 0px 0px;
 }
 
 .header_buttons:hover{
@@ -31,13 +39,15 @@
 }
 
 .header_logo:hover{
-    filter: brightness(50%);
+    filter: brightness(0.8);
 }
 
 .basket_button{
     background-color: rgb(248, 46, 46);
     border-radius: 50px;
     transition: 0.3s;
+    border: none;
+    cursor: pointer;
 }
 
 .basket_btn_ico{
@@ -48,6 +58,20 @@
 .basket_button:hover{
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(255, 0, 0) 0px 0px 100px 10px;
+}
+
+
+@keyframes akatsuki_rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
 }
 
 .button_up{
@@ -64,6 +88,7 @@
     transition: 0.3s;
     cursor: pointer;
     text-decoration: none;
+    box-shadow: inset black 0px 0px 10px 1px;
 }
 
 .arrow{
@@ -72,11 +97,13 @@
     margin: 0;
     font-size: 40px;
     transition: 0.3s;
+    text-shadow: black 1px 0px 5px;
 }
 
 .button_up:hover{
     background-color: white;
     box-shadow: rgb(255, 0, 0) 0px 0px 100px 10px;
+    animation: akatsuki_rotate 0.5s infinite;
 }
 
 .button_up:hover .arrow {

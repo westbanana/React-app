@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 50px 0px;
+    padding-top: 200px;
+    width: 100%;
 }
 
 .container_with_products{
@@ -18,12 +20,13 @@
     justify-content: space-around;
     align-items: center;
     background-color: rgb(248, 46, 46);
-    border: 10px solid rgb(248, 46, 46);
+    /* border: 10px solid rgb(248, 46, 46); */
     border-radius: 20px 100px;    
     transition: 0.5s;
     cursor: pointer;
     overflow: hidden;
     margin: 30px;
+    box-shadow: inset black 0px 0px 10px 2px;
 }
 
 .product_container:hover{
@@ -40,8 +43,6 @@
 
 .product_image{
     height: 290px;
-    filter: brightness(80%);
-    transition: 0.3s;
 }
 
 .product_name{
@@ -60,4 +61,50 @@
     text-align: center;
 }
 
+.add_to_backet{
+    background-color: rgb(248, 46, 46);
+    border: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+    transform: scale(0);
+    color: white;
+    cursor: pointer;
+}
 
+.product_container:hover .add_to_backet{
+    transform: scale(1);
+}
+
+.click{
+    animation-name: clickOnButton;
+    animation-duration: 1s;
+}
+
+@keyframes clickOnButton {
+    0%{
+        background-color: rgb(248, 46, 46);
+    }
+    50%{
+        background-color: white;
+        color: black;
+    }
+    100%{
+        background-color: rgb(248, 46, 46);
+    }
+}
+
+.module_added{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    padding: 0px 20px;
+    display: none;
+}
+
+.show_added{
+    display: block;
+}
