@@ -26,6 +26,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: auto;
+
 }
 
 @keyframes showlight {
@@ -40,4 +42,4 @@
 
 .modal_light{ 
   animation: showlight 1.5s forwards;
-};
+}

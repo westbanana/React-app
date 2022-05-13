@@ -2,21 +2,21 @@ import React from 'react';
 import products from './Products/Products';
 
 const ProductContainer = ({
-  active, setActive, setAdded, added,
+  active, setActive, addProduct,
 }) => {
-  const handleClick = ({ name, price, image }) => {
+  const handleClick = (product) => {
     setActive(true);
     setTimeout(() => {
       setActive(false);
     }, 1000);
-    setAdded(
-      [{ name, price, image }, ...added],
+    addProduct(
+      product,
     );
   };
   return (
     <div className="container_with_products">
       {products.map((product) => (
-        <div className="product_container" role="presentation">
+        <div className="product_container" role="presentation" key={`${product.name} ${Math.random()}`}>
           <img src={product.image} alt="product" className="product_image" />
           <button
             type="button"

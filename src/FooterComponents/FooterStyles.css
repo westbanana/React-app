@@ -10,6 +10,10 @@
     padding-bottom: 20px;
 }
 
+.powered_p:focus{
+    opacity: 0;
+}
+
 .video_smoke{
     position: fixed;
     top: 0;
