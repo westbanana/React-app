@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b77d6db9-2b9a-4956-b6ca-e7ee07b805bf" name="Changes" comment="" />
+    <list default="true" id="b77d6db9-2b9a-4956-b6ca-e7ee07b805bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeaderComponents/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeaderComponents/HeaderStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/HeaderStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeaderComponents/Modals/Modals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/Modals/Modals.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainComponents/MainStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainComponents/MainStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainComponents/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainComponents/Products/Products.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,26 +21,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="28yVs7jwhUQPMGij0m5Snx10tWY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/front-end/React-app-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/front-end/Нова папка/React-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +61,18 @@
       <workItem from="1652435807397" duration="7327000" />
       <workItem from="1652453228796" duration="599000" />
       <workItem from="1652456484959" duration="10175000" />
+      <workItem from="1652539874261" duration="767000" />
+      <workItem from="1652541141088" duration="134000" />
+      <workItem from="1652708997523" duration="1095000" />
+      <workItem from="1652711678640" duration="662000" />
+      <workItem from="1652712692852" duration="77000" />
+      <workItem from="1652712877552" duration="801000" />
+      <workItem from="1653038395859" duration="2117000" />
+      <workItem from="1653041468205" duration="18324000" />
+      <workItem from="1653066359572" duration="293000" />
+      <workItem from="1653306863443" duration="616000" />
+      <workItem from="1653307500958" duration="2000" />
+      <workItem from="1653308053489" duration="606000" />
     </task>
     <servers />
   </component>
@@ -66,17 +89,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/HeaderComponents/Modals/Modals.jsx</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

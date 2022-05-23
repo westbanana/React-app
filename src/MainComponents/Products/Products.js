@@ -1,82 +1,81 @@
 import iphone from './iphone.png';
 import ipad from './ipad.png';
 import macbook from './macbook.png';
+import airPodsMax from './air-pods-max.png';
+import airPodsPro from './air-pods-pro.png';
+import appleTv from './apple-tv.png';
+import appleWatch from './apple-watch.png';
+import iMac from './imac.png';
+import macMini from './mac-mini.png';
+import macPro from './mac-pro.png';
+import applePencil from './apple-pencil.png';
 
 const products = [
   {
     name: 'Iphone 13 Pro',
-    price: '1000',
+    price: 999,
     image: iphone,
+    id: 1,
   },
   {
     name: 'Ipad Pro',
-    price: '1100',
+    price: 1099,
     image: ipad,
+    id: 2,
   },
   {
     name: 'Macbook Pro',
-    price: '1200',
+    price: 2999,
     image: macbook,
+    id: 3,
   },
   {
-    name: 'Iphone 13 Pro',
-    price: '1000',
-    image: iphone,
+    name: 'Air Pods Max',
+    price: 549,
+    image: airPodsMax,
+    id: 4,
   },
   {
-    name: 'Ipad Pro',
-    price: '1100',
-    image: ipad,
+    name: 'Air Pods Pro',
+    price: 249,
+    image: airPodsPro,
+    id: 5,
   },
   {
-    name: 'Macbook Pro',
-    price: '1200',
-    image: macbook,
+    name: 'Apple Watch',
+    price: 749,
+    image: appleWatch,
+    id: 6,
   },
   {
-    name: 'Iphone 13 Pro',
-    price: '1000',
-    image: iphone,
+    name: 'Apple Tv',
+    price: 199,
+    image: appleTv,
+    id: 7,
   },
   {
-    name: 'Ipad Pro',
-    price: '1100',
-    image: ipad,
+    name: 'Apple Pencil',
+    price: 129,
+    image: applePencil,
+    id: 8,
   },
   {
-    name: 'Macbook Pro',
-    price: '1200',
-    image: macbook,
+    name: 'iMac',
+    price: 1699,
+    image: iMac,
+    id: 9,
   },
   {
-    name: 'Iphone 13 Pro',
-    price: '1000',
-    image: iphone,
+    name: 'Mac Mini',
+    price: 1499,
+    image: macMini,
+    id: 10,
   },
   {
-    name: 'Ipad Pro',
-    price: '1100',
-    image: ipad,
-  },
-  {
-    name: 'Macbook Pro',
-    price: '1200',
-    image: macbook,
-  },
-  {
-    name: 'Iphone 13 Pro',
-    price: '1000',
-    image: iphone,
-  },
-  {
-    name: 'Ipad Pro',
-    price: '1100',
-    image: ipad,
-  },
-  {
-    name: 'Macbook Pro',
-    price: '1200',
-    image: macbook,
+    name: 'Mac Pro',
+    price: 5999,
+    image: macPro,
+    id: 11,
   },
 
 ];

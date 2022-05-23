@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Modals.css';
 
 const Modals = ({
-  active, setActive, children,
+  active, setActive, children, totalPrice,
 }) => {
   useEffect(() => {
     document.body.style.overflow = active ? 'hidden' : 'auto';
@@ -15,6 +15,9 @@ const Modals = ({
         onClick={(e) => e.stopPropagation()}
       >
         {children}
+        <p>
+          {`${totalPrice}$`}
+        </p>
       </div>
     </div>
   );

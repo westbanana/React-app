@@ -13,12 +13,11 @@ const App = () => {
       [product, ...addedProduct],
     );
   };
-  // console.log(addedProduct);
   return (
     <>
       <ShowVideo />
       <ButtonsGoToHeader />
-      <Header addedProduct={addedProduct} />
+      <Header addedProduct={addedProduct} setAddedProduct={setAddedProduct} />
       <MainContainer addProduct={addProduct} />
       <FooterContainer />
     </>

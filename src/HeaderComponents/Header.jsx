@@ -7,16 +7,25 @@ import './HeaderStyles.css';
 import Modals from './Modals/Modals';
 import './Modals/Modals.css';
 
-const Header = ({ addedProduct }) => {
+const Header = ({ addedProduct, setAddedProduct }) => {
   const [modalActive, setModalActive] = useState(false);
-  // document.getElementsByTagName('body');
+  // const [totalPrice, setTotalPrice] = useState(0);
   const showAboutUs = (param) => {
     console.log(param);
   };
   const showBacketModal = () => {
     setModalActive(true);
   };
-  // console.log(addedProduct);
+  const priceArr = addedProduct.map((product) => (
+    product.price
+  ));
+
+  let totalPrice = 0;
+
+  priceArr.forEach((elem) => {
+    totalPrice += elem;
+  });
+
   return (
     <div className="header_container" id="main_header">
       <HeaderLogo />
@@ -24,12 +33,34 @@ const Header = ({ addedProduct }) => {
       <HeaderButtons name="About Us" onClick={showAboutUs} />
       <HeaderButtons name="Support" onClick={showAboutUs} />
       <HeaderBacketButton onClick={showBacketModal} />
-      <Modals active={modalActive} setActive={setModalActive} addedProduct={addedProduct}>
+      <Modals
+        active={modalActive}
+        setActive={setModalActive}
+        addedProduct={addedProduct}
+        totalPrice={totalPrice}
+      >
         {addedProduct.map(((product) => (
           <div className="backet_product_block">
             <img src={product.image} alt="alt" className="backet_product_image" />
-            <p className="backet_product_name">{product.name}</p>
-            <p className="backet_product_price">{product.price}</p>
+            <div className="product_info">
+              <p className="backet_product_name">
+                {product.name}
+              </p>
+              <p className="backet_product_price">
+                {`${product.price}$`}
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => {
+                console.log(product.id);
+                console.log(addedProduct);
+                setAddedProduct(addedProduct.splice(product.id, 1));
+                console.log(addedProduct);
+              }}
+            >
+              X
+            </button>
           </div>
         )))}
       </Modals>

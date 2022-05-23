@@ -50,7 +50,7 @@
 }
 
 .basket_button{
-    background-color: rgb(248, 46, 46);
+    background-color: white;
     border-radius: 50px;
     transition: 0.3s;
     border: none;
@@ -63,8 +63,7 @@
 }
 
 .basket_button:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(255, 0, 0) 0px 0px 100px 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 100px 10px;
 }
 
 
@@ -81,14 +80,29 @@
     }
 }
 
+.backet_product_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+}
+
+.product_info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 .backet_product_image{
-    height: 50px;
+    height: 100px;
 }
 
 .backet_product_name{
-
+    margin: 0;
 }
 
 .backet_product_price{
-
+    margin: 0;
 }
