@@ -8,7 +8,7 @@ const ProductContainer = ({
     setActive(true);
     setTimeout(() => {
       setActive(false);
-    }, 1000);
+    }, 10);
     addProduct(
       product,
     );
@@ -18,16 +18,16 @@ const ProductContainer = ({
       {products.map((product) => (
         <div className="product_container" role="presentation" key={`${product.name} ${Math.random()}`}>
           <img src={product.image} alt="product" className="product_image" />
-          <button
-            type="button"
-            className={`add_to_backet${active ? ' click' : ''}`}
-            onClick={() => handleClick(product)}
-          >
-            Add to backet
-          </button>
-          <div>
+          <div className="product_container_info">
             <p className="product_name">{product.name}</p>
             <p className="product_price">{`${product.price}$`}</p>
+            <button
+              type="button"
+              className={`add_to_backet${active ? ' click' : ''}`}
+              onClick={() => handleClick(product)}
+            >
+              Add to backet
+            </button>
           </div>
         </div>
       ))}

@@ -5,10 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HeaderComponents/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeaderComponents/HeaderStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/HeaderStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeaderComponents/Modals/Modals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/Modals/Modals.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainComponents/MainStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainComponents/MainStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainComponents/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainComponents/Products/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainComponents/ProductContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainComponents/ProductContainer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,8 @@
       <workItem from="1653066359572" duration="293000" />
       <workItem from="1653306863443" duration="616000" />
       <workItem from="1653307500958" duration="2000" />
-      <workItem from="1653308053489" duration="606000" />
+      <workItem from="1653308053489" duration="17989000" />
+      <workItem from="1653476227176" duration="1651000" />
     </task>
     <servers />
   </component>

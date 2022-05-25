@@ -25,6 +25,22 @@ const Header = ({ addedProduct, setAddedProduct }) => {
   priceArr.forEach((elem) => {
     totalPrice += elem;
   });
+  //
+  // let deletedProduct;
+  //
+  // const deleteProduct = [...addedProduct.filter((e, i) => {
+  //   console.log('Eleement', e);
+  //   console.log('Index', i);
+  //   // console.log('Deleted', e[deleteProduct]);
+  //   return e[i] !== e[deletedProduct];
+  // })];
+  // console.log(deletedProduct);
+
+  const deleteProduct = (obj) => {
+    const result = addedProduct.filter((e) => e.id !== obj.id);
+    console.log(result);
+    setAddedProduct(result);
+  };
 
   return (
     <div className="header_container" id="main_header">
@@ -53,10 +69,7 @@ const Header = ({ addedProduct, setAddedProduct }) => {
             <button
               type="button"
               onClick={() => {
-                console.log(product.id);
-                console.log(addedProduct);
-                setAddedProduct(addedProduct.splice(product.id, 1));
-                console.log(addedProduct);
+                deleteProduct(product);
               }}
             >
               X
