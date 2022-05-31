@@ -7,13 +7,26 @@ import './FooterComponents/FooterStyles.css';
 
 const App = () => {
   const [addedProduct, setAddedProduct] = useState([]);
-  const addProduct = (product) => {
-    setAddedProduct(
-      [product, ...addedProduct],
-    );
-    console.log(addedProduct);
+  const auditDuplicate = (arr, element) => {
+    const result = [...arr];
+    const foundProduct = arr.find((I) => (I.id === element.id));
+    if (foundProduct !== undefined) {
+      const addCount = arr.map((I) => {
+        if (I.id === foundProduct.id) {
+          return { ...foundProduct, count: foundProduct.count + 1 };
+        }
+        return I;
+      });
+      return addCount;
+    }result.push(element);
+    return result;
   };
-
+  const addProduct = (product) => {
+    auditDuplicate(addedProduct, product);
+    const qwe = auditDuplicate(addedProduct, product);
+    setAddedProduct(qwe);
+    // console.log(qwe);
+  };
   return (
     <>
       <ShowVideo />

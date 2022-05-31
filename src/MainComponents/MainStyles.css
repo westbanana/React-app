@@ -96,7 +96,44 @@
 }
 
 .add_to_backet:hover {
-    background-color: rgba(255, 0, 0, 0.84);
+    animation: gradient 1s infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
+    }
+    10% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 10%, rgba(255,0,0,1) 100%);
+    }
+    20% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 20%, rgba(255,0,0,1) 100%);
+    }
+    30% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 30%, rgba(255,0,0,1) 100%);
+    }
+    40% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 40%, rgba(255,0,0,1) 100%);
+    }
+    50% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+    }
+    60% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 60%, rgba(255,0,0,1) 100%);
+    }
+    70% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 70%, rgba(255,0,0,1) 100%);
+    }
+    80% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 90%, rgba(255,0,0,1) 100%);
+    }
+    90% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 100%, rgba(255,0,0,1) 100%);
+    }
+    100% {
+        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 2%, rgba(255,0,0,1) 100%);
+    }
+
 }
 
 .product_container:hover .add_to_backet{

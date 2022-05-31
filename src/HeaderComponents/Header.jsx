@@ -10,6 +10,7 @@ import './Modals/Modals.css';
 const Header = ({ addedProduct, setAddedProduct }) => {
   const [modalActive, setModalActive] = useState(false);
   // const [totalPrice, setTotalPrice] = useState(0);
+  let totalPrice = 0;
   const showAboutUs = (param) => {
     console.log(param);
   };
@@ -17,31 +18,18 @@ const Header = ({ addedProduct, setAddedProduct }) => {
     setModalActive(true);
   };
   const priceArr = addedProduct.map((product) => (
-    product.price
+    product.price * product.count
   ));
-
-  let totalPrice = 0;
 
   priceArr.forEach((elem) => {
     totalPrice += elem;
   });
-  //
-  // let deletedProduct;
-  //
-  // const deleteProduct = [...addedProduct.filter((e, i) => {
-  //   console.log('Eleement', e);
-  //   console.log('Index', i);
-  //   // console.log('Deleted', e[deleteProduct]);
-  //   return e[i] !== e[deletedProduct];
-  // })];
-  // console.log(deletedProduct);
 
   const deleteProduct = (obj) => {
     const result = addedProduct.filter((e) => e.id !== obj.id);
-    console.log(result);
+    // console.log(result);
     setAddedProduct(result);
   };
-
   return (
     <div className="header_container" id="main_header">
       <HeaderLogo />
@@ -66,6 +54,9 @@ const Header = ({ addedProduct, setAddedProduct }) => {
                 {`${product.price}$`}
               </p>
             </div>
+            <p>
+              {`x${product.count}`}
+            </p>
             <button
               type="button"
               onClick={() => {

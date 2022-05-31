@@ -24,7 +24,7 @@ const ProductContainer = ({
             <button
               type="button"
               className={`add_to_backet${active ? ' click' : ''}`}
-              onClick={() => handleClick(product)}
+              onClick={() => handleClick(product, addProduct)}
             >
               Add to backet
             </button>
