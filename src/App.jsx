@@ -7,6 +7,7 @@ import './FooterComponents/FooterStyles.css';
 
 const App = () => {
   const [addedProduct, setAddedProduct] = useState([]);
+  console.log(addedProduct);
   const auditDuplicate = (arr, element) => {
     const result = [...arr];
     const foundProduct = arr.find((I) => (I.id === element.id));
