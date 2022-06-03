@@ -20,13 +20,14 @@
  
 .modal_content {
   border-radius: 12px;
-  background-color: white;
+  background-color: #ffffff;
   animation: qwe 10s forwards;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: auto;
+  width: 700px
 
 }
 

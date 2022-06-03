@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .header_container{
     display: flex;
     justify-content: space-around;
@@ -84,7 +88,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 50px;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 80%;
+}
+
+.backet_product_count{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .product_info{
@@ -93,14 +109,18 @@
     margin: 10px;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 200;
 }
 
 .backet_product_image{
-    height: 100px;
+    height: 150px;
 }
 
 .backet_product_name{
     margin: 0;
+    font-weight: 500;
 }
 
 .backet_product_price{

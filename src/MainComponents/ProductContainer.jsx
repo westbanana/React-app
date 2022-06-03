@@ -8,7 +8,7 @@ const ProductContainer = ({
     setActive(true);
     setTimeout(() => {
       setActive(false);
-    }, 10);
+    }, 500);
     addProduct(
       product,
     );

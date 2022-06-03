@@ -6,6 +6,7 @@ import './ButtonsGoToHeader';
 import './HeaderStyles.css';
 import Modals from './Modals/Modals';
 import './Modals/Modals.css';
+import CounterButton from './CounterButton';
 
 const Header = ({ addedProduct, setAddedProduct }) => {
   const [modalActive, setModalActive] = useState(false);
@@ -27,7 +28,6 @@ const Header = ({ addedProduct, setAddedProduct }) => {
 
   const deleteProduct = (obj) => {
     const result = addedProduct.filter((e) => e.id !== obj.id);
-    // console.log(result);
     setAddedProduct(result);
   };
   return (
@@ -54,9 +54,7 @@ const Header = ({ addedProduct, setAddedProduct }) => {
                 {`${product.price}$`}
               </p>
             </div>
-            <p>
-              {`x${product.count}`}
-            </p>
+            <CounterButton count={product.count} plusCount={} />
             <button
               type="button"
               onClick={() => {
