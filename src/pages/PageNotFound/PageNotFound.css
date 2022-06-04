@@ -1,0 +1,40 @@
+.pageNotFound_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageNotFound_header{
+  animation: breath 1.5s linear infinite;
+}
+
+.pageNotFound_link{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.47);
+  font-size: 30px;
+  border: rgba(122, 122, 122, 0.47) 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+  animation: linkbreath 1s linear infinite;
+}
+
+.pageNotFound_link:hover{
+  border: black 2px dashed;
+}
+
+@keyframes breath {
+  0%{
+    color: rgba(246, 90, 90, 1);
+  }
+  35%{
+    color: rgba(246, 90, 90, 0);
+  }
+  65%{
+    color: rgba(246, 90, 90, 0);
+  }
+  100%{
+    color: rgba(246, 90, 90, 1);
+  }
+}

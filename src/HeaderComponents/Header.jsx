@@ -35,7 +35,7 @@ const Header = ({ addedProduct, setAddedProduct }) => {
       <HeaderLogo />
       <HeaderButtons name="Contacts" onClick={showAboutUs} />
       <HeaderButtons name="About Us" onClick={showAboutUs} />
-      <HeaderButtons name="Support" onClick={showAboutUs} />
+      <HeaderButtons name="Another" onClick={showAboutUs} />
       <HeaderBacketButton onClick={showBacketModal} />
       <Modals
         active={modalActive}
@@ -54,7 +54,7 @@ const Header = ({ addedProduct, setAddedProduct }) => {
                 {`${product.price}$`}
               </p>
             </div>
-            <CounterButton count={product.count} plusCount={} />
+            <CounterButton count={product.count} />
             <button
               type="button"
               onClick={() => {

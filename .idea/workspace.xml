@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77d6db9-2b9a-4956-b6ca-e7ee07b805bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HeaderComponents/CounterButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AnotherPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound/PageNotFound.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound/PageNotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Store.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HeaderComponents/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeaderComponents/HeaderStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/HeaderStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeaderComponents/Modals/Modals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeaderComponents/Modals/Modals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainComponents/ProductContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainComponents/ProductContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,22 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/front-end/Нова папка/React-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "C:/front-end/Нова папка/Work-with-API",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\front-end\Нова папка\React-app\src\pages\PageNotFound" />
+      <recent name="C:\front-end\Нова папка\React-app\src\pages\MainPage" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,6 +97,11 @@
       <workItem from="1654093287197" duration="3718000" />
       <workItem from="1654261539562" duration="2748000" />
       <workItem from="1654268257264" duration="13149000" />
+      <workItem from="1654342357833" duration="176000" />
+      <workItem from="1654343386875" duration="84000" />
+      <workItem from="1654348828591" duration="5826000" />
+      <workItem from="1654355846651" duration="522000" />
+      <workItem from="1654359003458" duration="5108000" />
     </task>
     <servers />
   </component>

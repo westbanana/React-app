@@ -1,0 +1,26 @@
+.main_block{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 100px;
+}
+
+.main_block_links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.store{
+}
+
+.api{}
