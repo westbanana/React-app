@@ -35,6 +35,7 @@
     cursor: pointer;
     transition: 0.3s;
     color: #fff;
+    text-decoration: none;
 }
 
 .header_buttons:hover{

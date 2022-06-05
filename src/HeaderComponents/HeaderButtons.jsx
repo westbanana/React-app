@@ -1,15 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const HeaderButtons = ({ name, onClick }) => {
-  const showPage = () => {
-    onClick(true);
-  };
-
-  return (
-    <button type="button" className="header_buttons" onClick={showPage}>
-      {name}
-    </button>
-  );
-};
+const HeaderButtons = ({ name }) => (
+  <Link className="header_buttons" to="/">
+    {name}
+  </Link>
+);
 
 export default HeaderButtons;

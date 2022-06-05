@@ -16,12 +16,11 @@
   border: rgba(122, 122, 122, 0.47) 2px solid;
   border-radius: 10px;
   padding: 20px;
-  transition: 0.3s;
-  animation: linkbreath 1s linear infinite;
+  transition: 0.5s;
 }
 
 .pageNotFound_link:hover{
-  border: black 2px dashed;
+  box-shadow: inset rgba(0, 0, 0, 0.29) 0 0 5px;
 }
 
 @keyframes breath {

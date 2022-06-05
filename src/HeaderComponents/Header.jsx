@@ -35,7 +35,7 @@ const Header = ({ addedProduct, setAddedProduct }) => {
       <HeaderLogo />
       <HeaderButtons name="Contacts" onClick={showAboutUs} />
       <HeaderButtons name="About Us" onClick={showAboutUs} />
-      <HeaderButtons name="Another" onClick={showAboutUs} />
+      <HeaderButtons name="Home page" onClick={showAboutUs} />
       <HeaderBacketButton onClick={showBacketModal} />
       <Modals
         active={modalActive}
