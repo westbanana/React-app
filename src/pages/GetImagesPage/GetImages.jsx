@@ -32,8 +32,10 @@ const GetImages = () => {
   }, [currentPage]);
 
   const renderUser = () => products.map((e) => (
-    <div key={e.id}>
-      <span>{e.title}</span>
+    <div className="product_block" key={e.id}>
+      <img src={e.images[0]} alt="Product_Image" className="product_image" />
+      <span className="product_title">{e.title}</span>
+      <span className="product_description">{e.description}</span>
     </div>
   ));
 
@@ -42,8 +44,6 @@ const GetImages = () => {
   const onPageChange = (e) => {
     setCurrentPage(e.selected);
   };
-
-  console.log(currentPage);
 
   return (
     <div className="getImages_container">
