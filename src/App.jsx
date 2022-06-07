@@ -4,20 +4,20 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/MainPage/MainPage';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import Store from './pages/Store';
+import GetImages from './pages/GetImagesPage/GetImages';
+import './App.css';
 
-const App = () => {
-  console.log(1);
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="*" element={<PageNotFound />} />
-          <Route path="/react-store" element={<Store />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
-  );
-};
+const App = () => (
+  <BrowserRouter>
+    <div className="app_container">
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="*" element={<PageNotFound />} />
+        <Route path="/react-store" element={<Store />} />
+        <Route path="/get-images" element={<GetImages />} />
+      </Routes>
+    </div>
+  </BrowserRouter>
+);
 
 export default App;
