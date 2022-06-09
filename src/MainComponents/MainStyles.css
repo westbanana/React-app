@@ -33,8 +33,9 @@
     box-shadow: inset 4px 4px 220px rgba(253, 9, 36, 0.4), inset 4px 4px 52px rgba(197, 38, 38, 0.42);
 }
 
-.product_image{
+.main-container_product_image{
     height: 400px;
+    width: auto;
     transition: 0.5s;
 }
 
@@ -81,7 +82,8 @@
 }
 
 .add_to_backet{
-    background-color: rgba(248, 46, 46, 0.84);
+    background-image: linear-gradient(90deg,#ff0000,#ffffff,#ff0000,#ff0000,#ffffff);
+    background-size: 400% 100%;
     border: none;
     font-size: 20px;
     border-radius: 50px;
@@ -96,44 +98,12 @@
 }
 
 .add_to_backet:hover {
-    animation: gradient 1s infinite;
+    animation: animateBg 2s linear infinite;
 }
 
-@keyframes gradient {
-    0% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
-    }
-    10% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 10%, rgba(255,0,0,1) 100%);
-    }
-    20% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 20%, rgba(255,0,0,1) 100%);
-    }
-    30% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 30%, rgba(255,0,0,1) 100%);
-    }
-    40% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 40%, rgba(255,0,0,1) 100%);
-    }
-    50% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
-    }
-    60% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 60%, rgba(255,0,0,1) 100%);
-    }
-    70% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 70%, rgba(255,0,0,1) 100%);
-    }
-    80% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 90%, rgba(255,0,0,1) 100%);
-    }
-    90% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 100%, rgba(255,0,0,1) 100%);
-    }
-    100% {
-        background: linear-gradient(90deg, rgba(255,0,0,0.01) 0%, rgba(255,255,255,1) 2%, rgba(255,0,0,1) 100%);
-    }
-
+@keyframes animateBg {
+    0% { background-position: 100% 0%; }
+    100% { background-position: 0% 0%; }
 }
 
 .product_container:hover .add_to_backet{

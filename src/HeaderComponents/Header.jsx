@@ -30,6 +30,10 @@ const Header = ({ addedProduct, setAddedProduct }) => {
     const result = addedProduct.filter((e) => e.id !== obj.id);
     setAddedProduct(result);
   };
+
+  // const minusCount = (product) => {
+  // };
+
   return (
     <div className="header_container" id="main_header">
       <HeaderLogo />
@@ -54,7 +58,11 @@ const Header = ({ addedProduct, setAddedProduct }) => {
                 {`${product.price}$`}
               </p>
             </div>
-            <CounterButton count={product.count} />
+            <CounterButton
+              count={product.count}
+              product={product}
+              minusCount={() => minusCount(product)}
+            />
             <button
               type="button"
               onClick={() => {

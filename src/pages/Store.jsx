@@ -26,8 +26,8 @@ const Store = () => {
     auditDuplicate(addedProduct, product);
     const qwe = auditDuplicate(addedProduct, product);
     setAddedProduct(qwe);
-    // console.log(qwe);
   };
+  console.log(addedProduct);
   return (
     <>
       <ShowVideo />

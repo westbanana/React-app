@@ -17,7 +17,7 @@ const ProductContainer = ({
     <div className="container_with_products">
       {products.map((product) => (
         <div className="product_container" role="presentation" key={`${product.name} ${Math.random()}`}>
-          <img src={product.image} alt="product" className="product_image" />
+          <img src={product.image} alt="product" className="main-container_product_image" />
           <div className="product_container_info">
             <p className="product_name">{product.name}</p>
             <p className="product_price">{`${product.price}$`}</p>
